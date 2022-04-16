@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include datawiseafrica *.css
+recursive-include datawiseafrica *.csv
+recursive-include datawiseafrica *.html
+recursive-include datawiseafrica *.ico
+recursive-include datawiseafrica *.js
+recursive-include datawiseafrica *.json
+recursive-include datawiseafrica *.md
+recursive-include datawiseafrica *.png
+recursive-include datawiseafrica *.py
+recursive-include datawiseafrica *.svg
+recursive-include datawiseafrica *.txt
+recursive-exclude datawiseafrica *.pyc
